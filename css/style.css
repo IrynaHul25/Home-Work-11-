@@ -12,9 +12,13 @@ body {
 				/* Useful styles*/
 
 				.container {
-					max-width: 1200px;
-					padding: 0 15px;
-					margin: 0 auto;
+					
+						max-width: 1300px;
+						padding: 0 15px;
+						margin: 0 auto;
+						display: flex;
+						justify-content: space-between;
+					
 				}
 
 				.btn {
@@ -46,9 +50,7 @@ body {
 }
 
 .header_line {
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
+	
 	padding: 27px 0;
 }
 
@@ -93,9 +95,16 @@ body {
 				/* Directions */
 				.directions {
 					padding: 70px 0;
+					max-width: 1200px;
+					height: auto;
 				}
+				
+				
 
+				
 				.directions_item-list {
+					min-width: 1070px;
+				
 					margin-top: 50px;
 					display: flex;
 					align-items: flex-start;
@@ -132,14 +141,20 @@ body {
 					font-weight: 500;
 					font-size: 18px;
 					text-transform: uppercase;
+	
+					
+}
 
-				}
+
+
+				
 
   /* Browser screen style */
 .browser_screen {
 	display: flex;
 	background-image: linear-gradient(172deg, #ff6c54 1%, #ff2b59 99%);
-	min-height: 700px;
+	
+	
 }
 
 .browser_screen_content {
@@ -159,6 +174,8 @@ body {
 
 
 .browser_text {
+	max-width: 960px;
+	margin: 0 auto;
 	text-align: center;
 	color: rgb(255, 255, 255);
 	opacity: .8; 
@@ -189,7 +206,7 @@ body {
 				}
 
 				.phone_info {
-					width: 550px ;
+					max-width: 1000px ;
 					margin: auto 70px ;
 				} 
 
@@ -205,6 +222,7 @@ body {
 					font-size: 15px;
 					color: #929ba0;
 					font-weight: 300;
+					max-width: 577px;
 				}
 				.phone_screen_btn {
 					margin-top: 50px;
@@ -222,8 +240,8 @@ body {
 }
 
  .portfolio_container {
-    height: auto;
-	align-items: center;
+   max-width: 1250px;
+   margin: 0 auto;
 
 
 }
@@ -240,7 +258,6 @@ body {
 }
 
 .portfolio_screen_text {
-	height: 64px;
 	font-size: 13px;
 	color: #ffffff;
 	font-weight: 300;
@@ -254,23 +271,24 @@ body {
 	justify-content: space-between;
 	text-transform: uppercase;
 }
+.portfolio_navigation_item:hover {
+	color: #fff;
+}
 
 				
 
 .portfolio_item {
 	max-width: 1300px;
-	height: 800px;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
-	padding: 0 100px;
-
-	
-
-}
-
-.portfolio_work1 {
 	margin: 0 auto;
+	padding: 10px 0;
+
+	}
+
+.portfolio_work {
+	margin: 15px 18px;
 	background-color: #232e3d;
 	width: 340px;
 	height: 340px;
@@ -278,51 +296,8 @@ body {
 	flex-wrap: wrap;
 	align-content: flex-end;
 }
-.portfolio_work2 {
-	margin: 0 auto;
-	background-color: #232e3d;
-	width: 340px;
-	height: 340px;
-	display: flex;
-	flex-wrap: wrap;
-	align-content: flex-end;
-}
-.portfolio_work3 {
-	margin: 0 auto;
-	background-color: #232e3d;
-	width: 340px;
-	height: 340px;
-	display: flex;
-	flex-wrap: wrap;
-	align-content: flex-end;
-}
-.portfolio_work4 {
-	margin: 0 auto;
-	background-color:#232e3d;
-	width: 340px;
-	height: 340px;
-	display: flex;
-	flex-wrap: wrap;
-	align-content: flex-end;
-}
-.portfolio_work5 {
-	margin: 0 auto;
-	background-color:#232e3d;
-	width: 340px;
-	height: 340px;
-	display: flex;
-	flex-wrap: wrap;
-	align-content: flex-end;
-}
-.portfolio_work6 {
-	margin: 0 auto;
-	background-color:#232e3d;
-	width: 340px;
-	height: 340px;
-	display: flex;
-	flex-wrap: wrap;
-	align-content: flex-end;
-}
+
+
 
 .portfolio_item_block {
 	background-color: rgb(255, 255, 255);
@@ -338,11 +313,14 @@ body {
 }
 
 .portfolio_work_text {
+	max-width: 209px;
+	margin: 0 auto;
 	font-size: 12px;
 	color: #929ba0;
 	font-weight: 400;
 	text-transform: none;
 	text-align: center;
+
 
 }
 
@@ -351,5 +329,5 @@ body {
 	.arrow_down_pic {
 		width: auto;
 		text-align: center;
-		padding: 30px 0;
+		margin: 45px 0;
 	}
